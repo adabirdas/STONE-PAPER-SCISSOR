@@ -1,0 +1,187 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-image: url(HD-wallpaper-nature-land-red-green-town-video-games-nature-land-sky-blue.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    
+}
+audio{
+    position: absolute;
+    top: 50px;
+    height: 30px;
+}
+.circles{
+    height: 100px;
+    width: 100px;
+    border:5px solid black;
+    border-radius: 50%;
+    
+    position: relative;
+    padding: 0%;
+    
+    
+   
+    
+
+}
+.elements{
+    height: 120px;
+    display: flex;
+    width:400px;
+    justify-content: space-around;
+    position: relative;
+    left:480px;
+    top: 400px;
+    align-items: center;
+   
+    
+    
+    
+    
+}
+.circles:hover{
+    
+    border:5px solid red;
+    
+    
+
+}
+#one{
+    background-image: url(rock.jpeg);
+    background-size: cover;
+    
+}
+#two{
+    background-image: url(paper.jpeg);
+    background-size:cover;
+}
+#three{
+    background-image:url(sesor.jpeg) ;
+    background-size: cover;
+    background-position: center;
+}
+.massage{
+    height: 30px;
+    width: 150px;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 60px;
+    left: 615px;
+    border-radius: 10%;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: aliceblue;
+    
+}
+.massage:hover{
+    opacity:0.5 ;
+    cursor: pointer;
+    
+
+}
+.head{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(224, 127, 0);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    color: aliceblue;
+    font-size: large;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.player{
+    height: 150px;
+    width: 150px;
+    border:5px solid black;
+    border-radius: 50%;
+    position: relative;
+    left: 350px;
+    background-size: cover;
+    
+    padding: 0%;
+
+}
+.computer{
+    height: 150px;
+    width: 150px;
+    border:5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    right: 350px;
+    bottom:360px;
+    background-size: cover;
+
+}
+.score{
+    position: absolute;
+    top: 80px;
+    left: 620px;
+    font-size: 40px;
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    
+   
+}
+.playerscore{
+    position: absolute;
+    top: 170px;
+    left: 580px;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    height:50px;
+    width: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.computerscore{
+    position: absolute;
+    top: 170px;
+    right: 580px;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    height:50px;
+    width: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.playertext{
+    font-size: 30px;
+    position: absolute;
+    left: 390px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    
+
+
+}
+.computertext{
+    font-size: 30px;
+    position: absolute;
+    right: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+
+}
+.dash{
+    font-size: 80px;
+    position: absolute;
+    left: 670px;
+    top: 140px;
+    
+}
